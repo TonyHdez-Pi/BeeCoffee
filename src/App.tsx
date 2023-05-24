@@ -1,10 +1,10 @@
-import "./App.css";
+import { Header } from "./components";
 
 function App() {
 	return (
-		<>
-			<p className="text-9xl font-black text-center">React + typescript</p>
-		</>
+		<main className="mainContainer bg-mainBgColor">
+			<Header />
+		</main>
 	);
 }
 
